@@ -142,11 +142,11 @@ shinyApp(
 ```
 
 ## Putting it all together
-<iframe val = TRUE, echo=FALSE}
+```{r, eval = TRUE, echo=FALSE}
 knitr::include_app("https://jehof.shinyapps.io/shiny_demo/")
 ```
 
-#, height = "600px"# How to deploy Shiny Apps? {.columns-2 .smaller}
+## How to deploy Shiny Apps? {.columns-2 .smaller}
 
 ### Solutions by R Studio
 
@@ -208,11 +208,6 @@ knitr::include_graphics('figures/cicd.png')
 | shinydashboards | Bootstrap3 dashboard |
 | bs4Dash | Bootstrap4 ftw! |
 | shinymaterial | Material dashboard |
-
-## Example homebreR by Dave Steps {.smaller}
-```{r, homebreR, echo=FALSE}
-knitr::include_app("http://davesteps.com/homebrewR")
-```
  
 ## Example Stadtrad
 ```{r, stadtrad, echo=FALSE}
