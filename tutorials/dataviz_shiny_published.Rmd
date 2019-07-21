@@ -142,6 +142,7 @@ shinyApp(
 ```
 
 ## Putting it all together
+<iframe src ="https://jehof.shinyapps.io/shiny_demo/" height=500px width=500px />
 ```{r, eval = TRUE, echo=FALSE}
 knitr::include_app("https://jehof.shinyapps.io/shiny_demo/")
 ```
