@@ -3,6 +3,9 @@ title: "Why bother with Shiny 🌟 when you can use Tableau 🎨?"
 subtitle: "A brief Introduction to Data Science Pipelines for Visualizations"
 author: "Jens Hofmann"
 date: "2019-07-17"
+output:
+  html_document:
+    css: tutorial_style.css
 ---
 
 <style>
